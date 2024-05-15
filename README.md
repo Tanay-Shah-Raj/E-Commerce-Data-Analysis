@@ -37,3 +37,11 @@ In conclusion, the E-Commerce Data Analysis Project underscores my capabilities 
 ## Data Model
 ![Data Model](https://github.com/Tanay-Shah-Raj/E-Commerce-Data-Analysis/raw/master/Data%20Model.png)
 
+## Dashboard 1
+![Dashboard 1](https://github.com/Tanay-Shah-Raj/E-Commerce-Data-Analysis/raw/master/Dashboard-1.png)
+
+## Dashboard 2
+![Dashboard 2](https://github.com/Tanay-Shah-Raj/E-Commerce-Data-Analysis/raw/master/Dashboard-2.png)
+
+## Dashboard 3
+![Dashboard 3](https://github.com/Tanay-Shah-Raj/E-Commerce-Data-Analysis/raw/master/Dashboard-3.png)
