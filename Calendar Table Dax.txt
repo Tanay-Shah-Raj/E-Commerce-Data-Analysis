@@ -1,0 +1,21 @@
+dimDate = 
+VAR StartDate = MIN(MIN(MIN(MIN(dimOrderDate[order_purchase_date]), MIN(dimOrderApprovedDate[order_approved_date])), MIN(MIN(dimOrderCarrierDate[order_delivered_carrier_date]), MIN(dimOrderDeliveredDate[order_delivered_customer_date]))), MIN(MIN(dimOrderEstimatedDate[order_estimated_delivery_date]), MIN(dimReviewAnswerDate[review_answer_timestamp])))
+
+VAR EndDate = MAX(MAX(MAX(MAX(dimOrderDate[order_purchase_date]), MAX(dimOrderApprovedDate[order_approved_date])), MAX(MAX(dimOrderCarrierDate[order_delivered_carrier_date]), MAX(dimOrderDeliveredDate[order_delivered_customer_date]))), MAX(MAX(dimOrderEstimatedDate[order_estimated_delivery_date]), MAX(dimReviewAnswerDate[review_answer_timestamp])))
+
+VAR DateTable = 
+ADDCOLUMNS(
+    CALENDAR(StartDate, EndDate),
+    "Year", YEAR([Date]),
+    "Quarter Name", FORMAT([Date], "\QQ"),
+    "Quarter number", QUARTER([Date]),
+    "Month Name", FORMAT([Date], "MMM"),
+    "Month number", MONTH([Date]),
+    "Month Year", FORMAT([Date], "MMM YYYY"),
+    "Month Year Sort", VALUE(FORMAT([Date], "YYYYMM")),
+    "Week Name", "W" & WEEKNUM([Date]),
+    "Day Name", FORMAT([Date], "DDDD"),
+    "Day number", WEEKDAY([Date])
+)
+RETURN
+DateTable
