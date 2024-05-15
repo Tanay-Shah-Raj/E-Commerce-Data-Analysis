@@ -34,6 +34,6 @@ While this project has yielded commendable results, there's always room for furt
 ## Conclusion
 In conclusion, the E-Commerce Data Analysis Project underscores my capabilities as an individual practitioner in the field of business intelligence and analytics. Through this project, I've demonstrated my ability to drive value, make informed decisions, and deliver impactful results through data-driven analysis.
 
-##Data Model
-![Data Model](https://github.com/Tanay-Shah-Raj/E-Commerce-Data-Analysis/edit/master/Data%20Model.png)
+## Data Model
+![Data Model](https://github.com/Tanay-Shah-Raj/E-Commerce-Data-Analysis/raw/master/Data%20Model.png)
 
