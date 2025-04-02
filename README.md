@@ -41,6 +41,9 @@ The analysis revealed several key insights:
 
 These insights directly contributed to the 20% sales increase through strategic initiatives focused on customer retention, market expansion, and user experience improvements.
 
+## Future Work
+Future steps include refining predictive models, exploring additional data sources, and integrating advanced analytics techniques for deeper insights.
+
 ## Visual Documentation
 
 ### Data Model
@@ -63,5 +66,4 @@ This dashboard focuses on customer behavior metrics including acquisition, reten
 
 This dashboard examines product performance across various metrics including sales velocity, profit margins, and inventory turnover. It identifies top-performing products, underperforming categories, and seasonal bestsellers. The product affinity analysis reveals common basket combinations that inform merchandising strategies.
 
-## Future Work
-Future steps include refining predictive models, exploring additional data sources, and integrating advanced analytics techniques for deeper insights.
+
